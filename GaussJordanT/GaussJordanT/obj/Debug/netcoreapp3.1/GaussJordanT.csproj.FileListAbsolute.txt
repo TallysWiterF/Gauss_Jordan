@@ -1,0 +1,13 @@
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\bin\Debug\netcoreapp3.1\GaussJordanT.exe
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\bin\Debug\netcoreapp3.1\GaussJordanT.deps.json
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\bin\Debug\netcoreapp3.1\GaussJordanT.runtimeconfig.json
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\bin\Debug\netcoreapp3.1\GaussJordanT.runtimeconfig.dev.json
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\bin\Debug\netcoreapp3.1\GaussJordanT.dll
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\bin\Debug\netcoreapp3.1\GaussJordanT.pdb
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\obj\Debug\netcoreapp3.1\GaussJordanT.csprojAssemblyReference.cache
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\obj\Debug\netcoreapp3.1\GaussJordanT.csproj.CoreCompileInputs.cache
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\obj\Debug\netcoreapp3.1\GaussJordanT.AssemblyInfoInputs.cache
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\obj\Debug\netcoreapp3.1\GaussJordanT.AssemblyInfo.cs
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\obj\Debug\netcoreapp3.1\GaussJordanT.dll
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\obj\Debug\netcoreapp3.1\GaussJordanT.pdb
+C:\Users\WazPc\source\repos\GaussJordanT\GaussJordanT\obj\Debug\netcoreapp3.1\GaussJordanT.genruntimeconfig.cache
