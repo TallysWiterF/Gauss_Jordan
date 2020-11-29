@@ -60,46 +60,24 @@ namespace GaussJordanT
                         sistema[sistema.GetLength(0) - 1, i] = vetorAux[i]; //ultima linha recebe a linha que está zerada
                         sistema[v, i] = vet1[i]; // passando a ultima linha para o lugar de onde a zerada estava 
                     }
-                }
-           
-             
-            // abaixo vai ser para verificar é possivel organizar a diagonal 
-            int auxI = v + 1;
-            for (int j = 0; j < sistema.GetLength(1) - 1; j++)
-            {
-                while (v == j && auxI <= sistema.GetLength(0) - 1 && sistema[v, j] == 0) // se aux for menor ou igual a ultima linha da matriz e a o lugar onde o pivo deveria estar 
-                {                                                              // é igual a zero então 
-                    if (sistema[auxI, v] != 0) // se o elemento da coluna do pivo não 
-                    {
-                        for (int x = 0; x < sistema.GetLength(1); x++)
-                        {
-                            vetorAux[x] = sistema[v, x]; //passa a linha para vetorAux
-                            vet1[x] = sistema[auxI, x]; // vetor recebe a linha de baixo
-                            sistema[auxI, x] = vetorAux[x]; // sistema troca linha de baixo pela de cima (linha de baixo recebendo a de cima)
-                            sistema[v, x] = vet1[x];
-                        }
-                    }
-                    auxI++;
-                }
-            }
-
-
+                }  
+            Check(v);   
         }
 
-        public void Check(int v) // faz a mesma coisa que o ultimo for do Arruma casa 
+        public void Check(int v) // Organiza a diagonal. 
         {
             decimal[] vetorAux = new decimal[sistema.GetLength(1)];
             int auxI = v + 1;
             for (int j = 0; j < sistema.GetLength(1) - 1; j++)
             {
-                while (v == j && auxI <= sistema.GetLength(0) - 1 && sistema[v, j] == 0) // se aux for menor ou igual a ultima linha da matriz e a o lugar onde o pivo deveria estar 
+                while (v == j && auxI <= sistema.GetLength(0) - 1 && sistema[v, j] == 0) // Se aux for menor ou igual a ultima linha da matriz e a o lugar onde o pivo deveria estar 
                 {                                                              // é igual a zero então 
-                    if (sistema[auxI, v] != 0) // se o elemento da coluna do pivo não 
+                    if (sistema[auxI, v] != 0) // Se o elemento da coluna do pivo não 
                     {
                         for (int x = 0; x < sistema.GetLength(1); x++)
                         {
-                            vetorAux[x] = sistema[v, x]; //passa a linha para vetorAux
-                            vet1[x] = sistema[auxI, x]; // vetor recebe a linha de baixo
+                            vetorAux[x] = sistema[v, x]; // Passa a linha para vetorAux
+                            vet1[x] = sistema[auxI, x]; // vet1 recebe a linha de baixo
                             sistema[auxI, x] = vetorAux[x]; //  sistema troca linha de baixo pela de cima (linha de baixo recebendo a de cima)
                             sistema[v, x] = vet1[x];
                         }
